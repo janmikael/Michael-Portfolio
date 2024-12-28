@@ -44,10 +44,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        Hi! i`m Michael Pacto Web Developer with experience in PHP and
-        JavaScript, I`m quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let`s work together to bring your ideas to life!
+        Hi, I'm Michael Pacto, a versatile Web and WordPress Developer skilled in PHP, JavaScript, MERN, Git, and Tailwind CSS. I excel at creating scalable, user-friendly solutions and am always eager to learn and tackle new challenges. Let's bring your ideas to life!
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
