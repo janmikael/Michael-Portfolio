@@ -26,6 +26,7 @@ import {
   wordpress,
   multiline,
   everfirst,
+  youtubeClone,
 } from "../assets";
 
 export const navLinks = [
@@ -204,6 +205,33 @@ const testimonials = [
 ];
 
 const projects = [
+
+  {
+    name: "Youtube Clone",
+    description:
+      "A YouTube Clone built with ReactJS, styled using Material UI 5, and powered by Rapid API. This project demonstrates dynamic video rendering, responsive UI design, and API integration, showcasing my skills in front-end development.",
+    tags: [
+      {
+        name: "React JS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Material UI 5",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Rapid API",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Vercel",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: youtubeClone,
+    source_code_link: "https://youtube-clone-mauve-ten.vercel.app/",
+  },
+
   {
     name: "Multi-Line Website",
     description:

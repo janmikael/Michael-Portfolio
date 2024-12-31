@@ -34,7 +34,7 @@ import tripguide from "./tripguide.png";
 import multiline from "./multiline.png";
 
 import everfirst from "./everfirst.png";
-
+import youtubeClone from "./youtubeClone.png";
 export {
   logo,
   backend,
@@ -67,4 +67,5 @@ export {
   wordpress,
   multiline,
   everfirst,
+  youtubeClone,
 };
