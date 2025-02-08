@@ -27,6 +27,7 @@ import {
   multiline,
   everfirst,
   youtubeClone,
+  movieShowcase,
 } from "../assets";
 
 export const navLinks = [
@@ -76,10 +77,10 @@ const technologies = [
     name: "JavaScript",
     icon: javascript,
   },
-  // {
-  //   name: "TypeScript",
-  //   icon: typescript,
-  // },
+  {
+    name: "TypeScript",
+    icon: typescript,
+  },
   {
     name: "React JS",
     icon: reactjs,
@@ -206,6 +207,33 @@ const testimonials = [
 
 const projects = [
 
+
+  {
+    name: "Trending Movies Showcase",
+    description:
+      "Movie app that Showcasing Trending movies with search optimize by using Debounce. using React + Vite TMDB api Appwrite for database.",
+    tags: [
+      {
+        name: "React JS + Vite",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Appwrite",
+        color: "green-text-gradient",
+      },
+      {
+        name: "TMDB API",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Vercel",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: movieShowcase,
+    source_code_link: "https://movie-trending-showcase.vercel.app/",
+  },
+
   {
     name: "Youtube Clone",
     description:
@@ -232,27 +260,7 @@ const projects = [
     source_code_link: "https://youtube-clone-mauve-ten.vercel.app/",
   },
 
-  {
-    name: "Multi-Line Website",
-    description:
-      "Wordpress Website with custom Theme.Multi-Line Philippines is a comprehensive online platform offering a diverse range of products and services tailored to meet the needs of businesses and individuals alike. With a focus on quality, reliability, and customer satisfaction, Multi-Line Philippines serves as a one-stop destination for various industries, including telecommunications, technology, and beyond.",
-    tags: [
-      {
-        name: "Wordpress",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "MySql",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: multiline,
-    source_code_link: "https://www.multi-line.com.ph/",
-  },
+  
   {
     name: "EverFirst Loan",
     description:
@@ -273,6 +281,28 @@ const projects = [
     ],
     image: everfirst,
     source_code_link: "https://everfirstloans.com/",
+  },
+
+  {
+    name: "Multi-Line Website",
+    description:
+      "Wordpress Website with custom Theme.Multi-Line Philippines is a comprehensive online platform offering a diverse range of products and services tailored to meet the needs of businesses and individuals alike. With a focus on quality, reliability, and customer satisfaction, Multi-Line Philippines serves as a one-stop destination for various industries, including telecommunications, technology, and beyond.",
+    tags: [
+      {
+        name: "Wordpress",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "MySql",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: multiline,
+    source_code_link: "https://www.multi-line.com.ph/",
   },
   // {
   //   name: "Trip Guide",

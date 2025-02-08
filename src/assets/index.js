@@ -35,6 +35,7 @@ import multiline from "./multiline.png";
 
 import everfirst from "./everfirst.png";
 import youtubeClone from "./youtubeClone.png";
+import movieShowcase from "./movieShowcase.png";
 export {
   logo,
   backend,
@@ -68,4 +69,5 @@ export {
   multiline,
   everfirst,
   youtubeClone,
+  movieShowcase,
 };
