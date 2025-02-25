@@ -28,6 +28,7 @@ import {
   everfirst,
   youtubeClone,
   movieShowcase,
+  saasLandingPage,
 } from "../assets";
 
 export const navLinks = [
@@ -124,32 +125,6 @@ const technologies = [
 ];
 
 const experiences = [
-  // {
-  //   title: "React.js Developer",
-  //   company_name: "Starbucks",
-  //   icon: starbucks,
-  //   iconBg: "#383E56",
-  //   date: "March 2020 - April 2021",
-  //   points: [
-  //     "Developing and maintaining web applications using React.js and other related technologies.",
-  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-  //     "Implementing responsive design and ensuring cross-browser compatibility.",
-  //     "Participating in code reviews and providing constructive feedback to other developers.",
-  //   ],
-  // },
-  // {
-  //   title: "React Native Developer",
-  //   company_name: "Tesla",
-  //   icon: tesla,
-  //   iconBg: "#E6DEDD",
-  //   date: "Jan 2021 - Feb 2022",
-  //   points: [
-  //     "Developing and maintaining web applications using React.js and other related technologies.",
-  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-  //     "Implementing responsive design and ensuring cross-browser compatibility.",
-  //     "Participating in code reviews and providing constructive feedback to other developers.",
-  //   ],
-  // },
   {
     title: "Wordpress Developer",
     company_name: "FMC Fillipinas MultiLine Corp.",
@@ -206,8 +181,27 @@ const testimonials = [
 ];
 
 const projects = [
-
-
+  {
+    name: "Saas Landing Page",
+    description:
+      "SaaS Landing page with modern UI and mobile-first principles using React.js and Tailwind CSS.",
+    tags: [
+      {
+        name: "React JS + Vite",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Tailwind Css",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Vercel",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: saasLandingPage,
+    source_code_link: "https://saa-s-app-landing-page-q3w9.vercel.app/",
+  },
   {
     name: "Trending Movies Showcase",
     description:
@@ -260,7 +254,6 @@ const projects = [
     source_code_link: "https://youtube-clone-mauve-ten.vercel.app/",
   },
 
-  
   {
     name: "EverFirst Loan",
     description:

@@ -36,6 +36,7 @@ import multiline from "./multiline.png";
 import everfirst from "./everfirst.png";
 import youtubeClone from "./youtubeClone.png";
 import movieShowcase from "./movieShowcase.png";
+import saasLandingPage from "./saasLandingPage.png";
 export {
   logo,
   backend,
@@ -70,4 +71,5 @@ export {
   everfirst,
   youtubeClone,
   movieShowcase,
+  saasLandingPage,
 };
