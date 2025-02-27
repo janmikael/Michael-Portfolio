@@ -9,7 +9,7 @@ import { SectionWrapper } from "../hoc";
 
 const ServiceCard = ({ index, title, icon }) => {
   return (
-    <Tilt className="xs:w-[250px] -full">
+    <Tilt className="xs:w-[250px] w-full">
       <motion.div
         variants={fadeIn("right", "spring", 0.5 * index, 0.75)}
         className="w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card"
@@ -24,7 +24,7 @@ const ServiceCard = ({ index, title, icon }) => {
         >
           <img src={icon} alt={title} className="w-16 h-16 object-contain" />
 
-          <h3 className="text-white text-[2opx] font-bold text-center">
+          <h3 className="text-white text-[20px] font-bold text-center">
             {title}
           </h3>
         </div>
@@ -38,13 +38,17 @@ const About = () => {
     <>
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>OverView.</h2>
+        <h2 className={styles.sectionHeadText}>About Me.</h2>
       </motion.div>
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        Hi, I'm Michael Pacto, a versatile Web and WordPress Developer skilled in PHP, JavaScript, MERN, Git, and Tailwind CSS. I excel at creating scalable, user-friendly solutions and am always eager to learn and tackle new challenges. Let's bring your ideas to life!
+        "Hi, I'm Michael Pacto, a versatile Web and WordPress Developer with
+        expertise in PHP, JavaScript, MERN, Git, and Tailwind CSS. I specialize
+        in building scalable, user-friendly solutions and thrive on tackling new
+        challenges. Passionate about innovation and continuous learning, I'm
+        ready to bring your ideas to life!"
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

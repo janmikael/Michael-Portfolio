@@ -28,7 +28,7 @@ const ProjectCard = ({
         className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
       >
         {/* card img */}
-        <div className="relative w-fsull h-[230px]">
+        <div className="relative w-full h-[230px]">
           <img
             src={image}
             alt={name}
@@ -54,7 +54,7 @@ const ProjectCard = ({
         {/* name & disc. of projects */}
         <div className="mt-5">
           <h3 className="text-white font-bold text-[24px]">{name}</h3>
-          <p className="mt-2 text-secondary tex-[14px]">{description}</p>
+          <p className="mt-2 text-secondary text-[14px]">{description}</p>
         </div>
 
         {/* #tags  of cards */}
@@ -94,7 +94,7 @@ const Works = () => {
       {/* wrpper for card */}
       <div className="mt-20 flex flex-wrap gap-7">
         {projects.map((project, index) => (
-          <ProjectCard key={"project-${index}"} index={index} {...project} />
+          <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
       </div>
     </>
