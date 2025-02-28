@@ -17,7 +17,11 @@ const ProjectCard = ({
 }) => {
   return (
     // animation of cards
-    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
+    <motion.div
+      initial={{ opacity: 0, y: 50 }} // Start animation hidden and lower
+      animate={{ opacity: 1, y: 0 }} // Animate to visible and normal position
+      transition={{ type: "spring", duration: 0.75, delay: index * 0.5 }} // Keep spring effect
+    >
       <Tilt
         options={{
           max: 45,
@@ -74,18 +78,26 @@ const ProjectCard = ({
 const Works = () => {
   return (
     <>
-      <motion.div variants={textVariant()}>
+      <motion.div
+        initial="hidden"
+        whileInView="show"
+        variants={textVariant()}
+        viewport={{ once: false, amount: 0.2 }} // Ensures animation triggers correctly
+      >
         <p className={styles.sectionSubText}>My work</p>
         <h2 className={styles.sectionHeadText}>Projects.</h2>
       </motion.div>
 
       <div className="w-full flex">
         <motion.p
+          initial="hidden"
+          whileInView="show"
           variants={fadeIn("", "", 0.1, 1)}
+          viewport={{ once: false, amount: 0.2 }} // Controls animation trigger
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
           Following projects showcase my skills and experience through
-          real-world examples of my work. Each projects is briefly described. It
+          real-world examples of my work. Each project is briefly described. It
           reflects my ability to solve complex problems, work with different
           technologies, and manage projects effectively.
         </motion.p>
