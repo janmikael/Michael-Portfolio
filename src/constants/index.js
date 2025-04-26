@@ -205,7 +205,8 @@ const projects = [
       },
     ],
     image: automateFinance,
-    source_code_link: "https://automate-finance-1st.streamlit.app/",
+    source_code_link: "https://github.com/janmikael/Automate-Finance", // Github Project link
+    project_link: "https://automate-finance-1st.streamlit.app/", // Project link
   },
   {
     name: "Saas Landing Page",
@@ -226,7 +227,8 @@ const projects = [
       },
     ],
     image: saasLandingPage,
-    source_code_link: "https://saa-s-app-landing-page-q3w9.vercel.app/",
+    source_code_link: "https://github.com/janmikael/SaaS-App-Landing-Page",
+    project_link: "https://saa-s-app-landing-page-q3w9.vercel.app/",
   },
   {
     name: "Trending Movies Showcase",
@@ -251,7 +253,8 @@ const projects = [
       },
     ],
     image: movieShowcase,
-    source_code_link: "https://movie-trending-showcase.vercel.app/",
+    source_code_link: "https://github.com/janmikael/Movie-Trending-Showcase",
+    project_link: "https://movie-trending-showcase.vercel.app/",
   },
 
   {
@@ -277,7 +280,8 @@ const projects = [
       },
     ],
     image: youtubeClone,
-    source_code_link: "https://youtube-clone-mauve-ten.vercel.app/",
+    source_code_link: "https://github.com/janmikael/Youtube-Clone",
+    project_link: "https://youtube-clone-mauve-ten.vercel.app/",
   },
 
   {
@@ -299,7 +303,8 @@ const projects = [
       },
     ],
     image: everfirst,
-    source_code_link: "https://everfirstloans.com/",
+    source_code_link: "",
+    project_link: "https://everfirstloans.com/",
   },
 
   {
@@ -321,29 +326,9 @@ const projects = [
       },
     ],
     image: multiline,
-    source_code_link: "https://www.multi-line.com.ph/",
+    source_code_link: "",
+    project_link: "https://www.multi-line.com.ph/",
   },
-  // {
-  //   name: "Trip Guide",
-  //   description:
-  //     "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-  //   tags: [
-  //     {
-  //       name: "nextjs",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "supabase",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "css",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: tripguide,
-  //   source_code_link: "https://github.com/",
-  // },
 ];
 
 export { services, technologies, experiences, testimonials, projects };
