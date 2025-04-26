@@ -29,6 +29,7 @@ import {
   youtubeClone,
   movieShowcase,
   saasLandingPage,
+  automateFinance,
 } from "../assets";
 
 export const navLinks = [
@@ -181,6 +182,31 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "Automation Finance App",
+    description:
+      "Personal finance automation tool in Python. used modules like Pandas, Plotly, & Streamlit.",
+    tags: [
+      {
+        name: "Python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Pandas",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Plotly",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Streamlit",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: automateFinance,
+    source_code_link: "https://automate-finance-1st.streamlit.app/",
+  },
   {
     name: "Saas Landing Page",
     description:
