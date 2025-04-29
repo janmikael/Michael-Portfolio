@@ -197,7 +197,7 @@ const projects = [
       },
       {
         name: "Plotly",
-        color: "blue-text-gradient",
+        color: "orange-text-gradient",
       },
       {
         name: "Streamlit",
@@ -223,7 +223,7 @@ const projects = [
       },
       {
         name: "Vercel",
-        color: "blue-text-gradient",
+        color: "pink-text-gradient",
       },
     ],
     image: saasLandingPage,
@@ -249,7 +249,7 @@ const projects = [
       },
       {
         name: "Vercel",
-        color: "blue-text-gradient",
+        color: "orange-text-gradient",
       },
     ],
     image: movieShowcase,
@@ -276,7 +276,7 @@ const projects = [
       },
       {
         name: "Vercel",
-        color: "blue-text-gradient",
+        color: "orange-text-gradient",
       },
     ],
     image: youtubeClone,

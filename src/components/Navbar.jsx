@@ -42,6 +42,17 @@ const Navbar = () => {
               <a href={`#${Link.id}`}>{Link.title}</a>
             </li>
           ))}
+
+          <li>
+            <a
+              href="/Michael-Portfolio/Michael S. Pacto - Resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-white bg-[#371d6e] px-4 py-2 rounded-md font-medium hover:bg-[#6d3ce4] transition"
+            >
+              My Resume
+            </a>
+          </li>
         </ul>
 
         {/* mobile menu */}
@@ -77,6 +88,17 @@ const Navbar = () => {
                   <a href={`#${nav.id}`}>{nav.title}</a>
                 </li>
               ))}
+
+              <li>
+                <a
+                  href="/Michael-Portfolio/Michael S. Pacto - Resume.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-white bg-[#371d6e] px-3 py-1 rounded-md font-medium hover:bg-[#6d3ce4] transition"
+                >
+                  My Resume
+                </a>
+              </li>
             </ul>
           </div>
         </div>
