@@ -38,6 +38,8 @@ import youtubeClone from "./youtubeClone.png";
 import movieShowcase from "./movieShowcase.png";
 import saasLandingPage from "./saasLandingPage.png";
 import automateFinance from "./automateFinance.png";
+import priceTracker from "./priceTracker.png";
+
 export {
   logo,
   backend,
@@ -74,4 +76,5 @@ export {
   movieShowcase,
   saasLandingPage,
   automateFinance,
+  priceTracker,
 };

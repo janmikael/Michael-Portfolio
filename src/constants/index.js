@@ -30,6 +30,7 @@ import {
   movieShowcase,
   saasLandingPage,
   automateFinance,
+  priceTracker,
 } from "../assets";
 
 export const navLinks = [
@@ -255,6 +256,32 @@ const projects = [
     image: movieShowcase,
     source_code_link: "https://github.com/janmikael/Movie-Trending-Showcase",
     project_link: "https://movie-trending-showcase.vercel.app/",
+  },
+  {
+    name: "Price Tracker",
+    description:
+      "Web scraping a Next.js 14 eCommerce price tracker , cron , sending emails.",
+    tags: [
+      {
+        name: "Web Scraping",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Next JS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Vercel",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: priceTracker,
+    source_code_link: "https://github.com/janmikael/webScraping",
+    project_link: "https://pricetracking-three.vercel.app/",
   },
 
   {
