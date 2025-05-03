@@ -21,6 +21,8 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import wordpress from "./tech/wordpress.png";
+import python from "./tech/python.png";
+import php from "./tech/php.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -41,6 +43,8 @@ import automateFinance from "./automateFinance.png";
 import priceTracker from "./priceTracker.png";
 
 export {
+  php,
+  python,
   logo,
   backend,
   creator,

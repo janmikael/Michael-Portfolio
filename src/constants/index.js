@@ -31,6 +31,8 @@ import {
   saasLandingPage,
   automateFinance,
   priceTracker,
+  python,
+  php,
 } from "../assets";
 
 export const navLinks = [
@@ -77,6 +79,10 @@ const technologies = [
     icon: css,
   },
   {
+    name: "Python",
+    icon: python,
+  },
+  {
     name: "JavaScript",
     icon: javascript,
   },
@@ -88,10 +94,10 @@ const technologies = [
     name: "React JS",
     icon: reactjs,
   },
-  // {
-  //   name: "Redux Toolkit",
-  //   icon: redux,
-  // },
+  {
+    name: "MongoDB",
+    icon: mongodb,
+  },
   {
     name: "Tailwind CSS",
     icon: tailwind,
@@ -100,26 +106,14 @@ const technologies = [
     name: "Node JS",
     icon: nodejs,
   },
-  // {
-  //   name: "MongoDB",
-  //   icon: mongodb,
-  // },
-  // {
-  //   name: "Three JS",
-  //   icon: threejs,
-  // },
+  {
+    name: "PHP",
+    icon: php,
+  },
   {
     name: "git",
     icon: git,
   },
-  // {
-  //   name: "figma",
-  //   icon: figma,
-  // },
-  // {
-  //   name: "docker",
-  //   icon: docker,
-  // },
   {
     name: "wordpress",
     icon: wordpress,
@@ -128,59 +122,58 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Wordpress Developer",
+    title: "Web Developer",
     company_name: "FMC Fillipinas MultiLine Corp.",
     icon: wordpress,
     iconBg: "#383E56",
-    date: "May 2019 - Present",
+    date: "May 2021  - January 2025",
     points: [
-      "Developing and maintaining web applications using Wordpress Costume Theme and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      " Designed and developed responsive websites using WordPress, PHP, HTML5, and CSS3.",
+      "Integrated MySQL and MongoDB databases for backend functionality.",
+      "Built custom React.js components to improve user interfaces.",
+      "Collaborated with cross-functional teams to deliver high-quality web solutions.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "FMC Fillipinas MultiLine Corp.",
+    title: "Technical Support",
+    company_name: "BCS System Inc.",
     icon: web,
     iconBg: "#E6DEDD",
-    date: "May 2019 - Present",
+    date: "July 2018 - January 2020",
     points: [
-      "Developing and maintaining web applications using PHP and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Provided technical assistance and troubleshooting for system software and hardware.",
+      " Supported over 200 end-users with network and system issues.",
+      "Assisted in software deployment and maintenance activities.",
     ],
   },
 ];
 
-const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
-];
+// const testimonials = [
+//   {
+//     testimonial:
+//       "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+//     name: "Sara Lee",
+//     designation: "CFO",
+//     company: "Acme Co",
+//     image: "https://randomuser.me/api/portraits/women/4.jpg",
+//   },
+//   {
+//     testimonial:
+//       "I've never met a web developer who truly cares about their clients' success like Rick does.",
+//     name: "Chris Brown",
+//     designation: "COO",
+//     company: "DEF Corp",
+//     image: "https://randomuser.me/api/portraits/men/5.jpg",
+//   },
+//   {
+//     testimonial:
+//       "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+//     name: "Lisa Wang",
+//     designation: "CTO",
+//     company: "456 Enterprises",
+//     image: "https://randomuser.me/api/portraits/women/6.jpg",
+//   },
+// ];
 
 const projects = [
   {
@@ -358,4 +351,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, projects };
