@@ -33,6 +33,7 @@ import {
   priceTracker,
   python,
   php,
+  pdfconverter,
 } from "../assets";
 
 export const navLinks = [
@@ -70,6 +71,10 @@ const services = [
 ];
 
 const technologies = [
+  {
+    name: "Docker",
+    icon: docker,
+  },
   {
     name: "HTML 5",
     icon: html,
@@ -176,6 +181,32 @@ const experiences = [
 // ];
 
 const projects = [
+  {
+    name: "Pdf Converter Web App",
+    description:
+      "PDF Converter Web App – A full-stack document conversion tool built with Flask, offering a clean web interface and Dockerized backend that handles DOCX, XLSX, TXT, and HTML to PDF conversion using LibreOffice and wkhtmltopdf.",
+    tags: [
+      {
+        name: "Python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Flask",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Docker",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "Render",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: pdfconverter,
+    source_code_link: "https://github.com/janmikael/PDF-Converter", // Github Project link
+    project_link: "https://pdf-converter-1ny8.onrender.com/", // Project link
+  },
   {
     name: "Automation Finance App",
     description:

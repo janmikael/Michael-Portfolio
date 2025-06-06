@@ -41,6 +41,7 @@ import movieShowcase from "./movieShowcase.png";
 import saasLandingPage from "./saasLandingPage.png";
 import automateFinance from "./automateFinance.png";
 import priceTracker from "./priceTracker.png";
+import pdfconverter from "./pdf-converter.png";
 
 export {
   php,
@@ -81,4 +82,5 @@ export {
   saasLandingPage,
   automateFinance,
   priceTracker,
+  pdfconverter,
 };
